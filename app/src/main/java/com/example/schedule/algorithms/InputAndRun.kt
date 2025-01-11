@@ -13,7 +13,6 @@ val breaks = listOf<ClosedRange<LocalTime>>(
     LocalTime.of(11,30)..LocalTime.of(12,59)
 )
 
-
 // classes
 val scheduledClasses = listOf(
     ScheduledClass(id=1, name="Psych 101",hoursLength=1.0, recurrences=2),
